@@ -2,10 +2,11 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md"
 import { BsLinkedin } from "react-icons/bs"
+import "../css/contact.css"
 
 export default function ContactIcons() {
   return (
-<div className="icons">
+<div className="icons2">
         <a
           href="https://github.com/rm2023"
           target="_blank" // Add target="_blank" to open in a new window/tab
