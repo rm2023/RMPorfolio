@@ -35,3 +35,14 @@
     display: flex;
     
   }
+  .icons {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+    color: white;
+  }
+  
+  .icons a {
+    margin: 0 10px;
+    
+  }

@@ -12,14 +12,17 @@ export default function Home() {
       <h1>Hello my name is Roberto Mejia Fullstack Developer</h1>
 
       <img src={ME} alt="me" style={{ width: '400px', height: '500px', borderRadius: '10px' }} />
-     
+
       <h3>
-        Recently completing the coding Certification bootcamp at UNC Charlotte. Programs include the basics of front-end
-        and back-end technologies including HTML5, CSS3, JavaScript, Bootstrap, React.js, Node.js, Express.js, MySQL, NoSQL
-        (MongoDB), Command Line, and Git. Worked with multiple team members to create functional mobile friendly web applications.
-      </h3>
-      <h3>
-        <p>Fully certified in fullstack as of july from UNC charlotte, the Program included instructional time with learners of 240 hours, and spent up to an
+        <p>
+
+        </p>
+        <p>
+          Recently completing the coding Certification bootcamp at UNC Charlotte. Programs include the basics of front-end
+          and back-end technologies including HTML5, CSS3, JavaScript, Bootstrap, React.js, Node.js, Express.js, MySQL, NoSQL
+          (MongoDB), Command Line, and Git. Worked with multiple team members to create functional mobile friendly web applications.
+        </p>
+        <p>The Program included instructional time with learners of 240 hours, and spent up to an
           additional 240 hours on homework and projects.</p>
         <p>Using git hub to upload/download homework and also collaberating with classmates on deployed websites projects. Learned to use visual studio to
           create mobile friendly web apps while sending databases to mongoDB and Deploying on heroku.</p>
