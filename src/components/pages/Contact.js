@@ -6,7 +6,7 @@ import "../css/contact.css"
 
 export default function ContactIcons() {
   return (
-<div className="icons2">
+<div className="icon2">
         <a
           href="https://github.com/rm2023"
           target="_blank" // Add target="_blank" to open in a new window/tab

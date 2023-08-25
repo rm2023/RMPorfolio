@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/About.css';
-import ME from '../../assets/me.jpg';
+import ME from '../../assets/me2.jpg';
 import { FaGithub } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md"
 import { BsLinkedin } from "react-icons/bs"
@@ -11,7 +11,7 @@ export default function Home() {
     <div className="Main">
       <h1>Hello my name is Roberto Mejia Fullstack Developer</h1>
 
-      <img src={ME} alt="me" style={{ width: '400px', height: '500px', borderRadius: '10px' }} />
+      <img src={ME} alt="me" style={{ width: '600px', height: '500px', borderRadius: '10px' }} />
 
       <h3>
         <p>
