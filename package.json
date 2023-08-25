@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "rm2023.github.io/RMPortfolio/",
+  "homepage": "https://rm2023.github.io/RMPortfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@pdftron/webviewer": "^10.3.0",
