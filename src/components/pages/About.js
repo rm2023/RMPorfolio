@@ -11,7 +11,7 @@ export default function Home() {
     <div className="Main">
       <h1>Hello my name is Roberto Mejia Fullstack Developer</h1>
 
-      <img src={ME} alt="me" style={{ width: '600px', height: '500px', borderRadius: '10px' }} />
+      <img src={ME} alt="me" style={{ width: 'px', height: '500px', borderRadius: '10px' }} />
 
       <h3>
         <p>
