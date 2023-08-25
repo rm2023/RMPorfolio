@@ -11,22 +11,21 @@ export default function Home() {
     <div className="Main">
       <h1>Hello my name is Roberto Mejia Fullstack Developer</h1>
 
-      <img src={ME} alt="me" style={{ width: 'px', height: '500px', borderRadius: '10px' }} />
+      <img src={ME} alt="me" style={{ width: '650px', height: '500px', borderRadius: '10px' }} />
 
       <h3>
         <p>
 
         </p>
-        <p>
-          Recently completing the coding Certification bootcamp at UNC Charlotte. Programs include the basics of front-end
+        <p>Recently completing the coding Certification bootcamp at UNC Charlotte. Programs include the basics of front-end
           and back-end technologies including HTML5, CSS3, JavaScript, Bootstrap, React.js, Node.js, Express.js, MySQL, NoSQL
           (MongoDB), Command Line, and Git. Worked with multiple team members to create functional mobile friendly web applications.
         </p>
-        <p>The Program included instructional time with learners of 240 hours, and spent up to an
+        <p>"   "The Program included instructional time with learners of 240 hours, and spent up to an
           additional 240 hours on homework and projects.</p>
-        <p>Using git hub to upload/download homework and also collaberating with classmates on deployed websites projects. Learned to use visual studio to
+        <p>  Using git hub to upload/download homework and also collaberating with classmates on deployed websites projects. Learned to use visual studio to
           create mobile friendly web apps while sending databases to mongoDB and Deploying on heroku.</p>
-        <p>In my react portfolio I have implemented what I have learned!</p>
+        <p>"   " In my react portfolio I have implemented what I have learned!</p>
       </h3>
       <div className="icons">
         <a
