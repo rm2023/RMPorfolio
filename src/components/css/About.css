@@ -1,41 +1,46 @@
 .Main {
   background-image: url("../../assets/background.jpg");
   background-size: cover;
-  min-height: 100vh;
   text-align: left;
-  height: 100%;
-  position: relative;
-  color: white;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1 {
+.title {
   padding-top: 50px;
-  padding-right: 1050px;
-  padding-bottom: 50px;
   padding-left: 80px;
-}
-
-h3 {
-  padding-top: 0px;
-  padding-right: 500px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
-
-img {
-
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
+  color: white;
 }
 
 .icons {
   display: flex;
-  justify-content: center; 
-  margin-top: 20px;
+  justify-content: center;
+
+
 }
 
 .icons a {
-  margin: 0 10px;
+  margin: 10px 10px;
+  color: white;
 }
+
+.description {
+  height: 100%;
+  width: 70%;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 50px;
+  color: white
+}
+
+p {
+  text-indent: 50px;
+}
+
+img {
+  padding-top: 50px;
+  height: auto;
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 480px) {}

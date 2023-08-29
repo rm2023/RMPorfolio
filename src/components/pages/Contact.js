@@ -9,8 +9,8 @@ export default function ContactIcons() {
 <div className="icon2">
         <a
           href="https://github.com/rm2023"
-          target="_blank" // Add target="_blank" to open in a new window/tab
-          rel="noopener noreferrer" // Recommended for security reasons
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="GitHub"
         >
           <FaGithub size={200} />
@@ -25,8 +25,8 @@ export default function ContactIcons() {
         </a>
         <a
           href="mailto:rmeji2@gmail.com"
-          target="_blank" // Add target="_blank" to open in a new window/tab
-          rel="noopener noreferrer" // Recommended for security reasons
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Email"
         >
           <MdOutlineEmail size={200} />
