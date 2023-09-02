@@ -1,43 +1,45 @@
 .icon2 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
+    align-items: flex-end;
+    flex-direction: row;
     padding-top: 23px;
-   
     padding-bottom: 100px;
-    
 }
-
-
-
-/* .contactForm {
+.Box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  form {
     display: flex;
     flex-direction: column;
-    padding: 50px;
-    margin: 50px;
-    background-color: var(--b5);
-    border: 1px solid var(--b1);
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px black;
-}
+    align-items: center;
+  }
 
-.submitButton {
-    margin: 10px auto;
-    width: 200px;
+  label {
+    margin: 10px 0;
+  }
+
+  input, textarea {
+    width: 100%;
     padding: 10px;
-    background-color: var(--b1);
-    color: var(--b2);
-    font-size: 1.2rem;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
-    border: none;
-}
-
-.submitButton:hover {
-    background-color: var(--b2);
-    color: var(--b1);
-    border: none;
-} */
+    margin: 5px 0;
+  }
+/* Style the message-sent-popup at the bottom */
+.message-sent-popup {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+  }
+  
 

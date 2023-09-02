@@ -3,17 +3,20 @@ import { FaGithub } from 'react-icons/fa';
 import { MdOutlineEmail } from "react-icons/md"
 import { BsLinkedin } from "react-icons/bs"
 import "../css/contact.css"
+import { ContactUs } from './ContactUs'; // Import the ContactUs component
 
 export default function ContactIcons() {
   return (
-<div className="icon2">
+    <div className="contact-container">
+          <ContactUs /> {/* Display the ContactUs component */}
+      <div className="icon2">
         <a
           href="https://github.com/rm2023"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
         >
-          <FaGithub size={200} />
+          <FaGithub size={50} />
         </a>
         <a
           href="https://www.linkedin.com/in/rmcoding23/"
@@ -21,7 +24,7 @@ export default function ContactIcons() {
           rel="noopener noreferrer"
           aria-label="LinkedIn"
         >
-          <BsLinkedin size={200} />
+          <BsLinkedin size={50} />
         </a>
         <a
           href="mailto:rmeji2@gmail.com"
@@ -29,8 +32,9 @@ export default function ContactIcons() {
           rel="noopener noreferrer"
           aria-label="Email"
         >
-          <MdOutlineEmail size={200} />
-          </a>
+          <MdOutlineEmail size={50} />
+        </a>
+      </div>
     </div>
   );
 }

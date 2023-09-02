@@ -36,21 +36,7 @@ export default function Portfolio() {
           <img src={fit} alt="Portfolio Item" />
         </a>
       </div>
-      <div className="icons">
-        <h5>
-          <p>Check out my</p>
-          <p>My Github --></p>
-          <p>Profile</p>
-        </h5>
-        <a
-          href="https://github.com/rm2023"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="GitHub"
-        >
-          <FaGithub size={100} />
-        </a>
-      </div>
+
     </div >
   );
 }
