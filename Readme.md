@@ -35,5 +35,5 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
-<iframe src="https://drive.google.com/file/d/1_7XkrP29PDX37JI2VMQTHqOVfZ6Fhb_l/preview" width="640" height="480"></iframe>
+
 
