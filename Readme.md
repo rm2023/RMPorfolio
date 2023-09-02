@@ -35,3 +35,6 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+[<img src="https://drive.google.com/file/d/1_7XkrP29PDX37JI2VMQTHqOVfZ6Fhb_l/view" width="600" height="300"
+/>](https://drive.google.com/file/d/1_7XkrP29PDX37JI2VMQTHqOVfZ6Fhb_l/view<VIDEO_ID>)
+
