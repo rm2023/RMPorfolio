@@ -5,9 +5,15 @@ import { BsLinkedin } from "react-icons/bs"
 import "../css/contact.css"
 import { ContactUs } from './ContactUs'; // Import the ContactUs component
 
+
+
 export default function ContactIcons() {
   return (
+    
     <div className="contact-container">
+        <h2>
+        Send me a message tell me what you think!
+      </h2>
           <ContactUs /> {/* Display the ContactUs component */}
       <div className="icon2">
         <a
