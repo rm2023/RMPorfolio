@@ -29,6 +29,18 @@ img {
   justify-content: center;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px){
+.description {
+  width: 100%;
+  padding-left: 20px; /* adjust padding as needed */
+  padding-right: 20px; /* adjust padding as needed */
+}
+}
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+  .description {
+    width: 100%;
+    padding-left: 20px; /* adjust padding as needed */
+    padding-right: 20px; /* adjust padding as needed */
+  }
+}

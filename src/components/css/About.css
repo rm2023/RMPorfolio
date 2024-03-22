@@ -14,8 +14,6 @@
 .icons {
   display: flex;
   justify-content: center;
-
-
 }
 
 .icons a {
@@ -41,6 +39,30 @@ img {
   height: auto;
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+  .description {
+    width: 100%;
+    padding-left: 20px; 
+    padding-right: 20px;
+  }
+  .title {
+    padding-left: 20px; 
+    padding-right: 20px;
 
-@media (max-width: 480px) {}
+  }
+
+}
+@media (max-width: 480px) {
+  .description {
+    width: 100%;
+    padding-left: 20px; 
+    padding-right: 20px; 
+  }
+  .title {
+    padding-left: 20px;   
+    padding-right: 20px;
+  }
+  img {
+    max-width: 80%;
+  }
+}
