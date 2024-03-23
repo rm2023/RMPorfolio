@@ -22,7 +22,7 @@ export const ContactUs = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_enxne9j', 'template_wxqw0bb', form.current, 'A4kKArm36ET7PsdzL')
+        emailjs.sendForm('service_htlzwu8', 'template_wxqw0bb', form.current, 'A4kKArm36ET7PsdzL')
             .then((result) => {
                 console.log(result.text);
                 setMessageSent(true);
